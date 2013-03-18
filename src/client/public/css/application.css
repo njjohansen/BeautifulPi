@@ -1,0 +1,156 @@
+html {
+	height: 100%;
+}
+
+body {
+    background-color: #888888;
+    font-family: "Helvetica";
+	font-size: 18pt;
+	line-height: 24px;
+	color: #AAAAAA;
+    margin: 0px 10px 0px 10px;
+	padding: 0px !important;
+	height: 100%;
+}
+
+span.num-true {
+	color: #44FF44;
+}
+
+span.num-false {
+	color: #FF4444;
+}
+
+span.num-index {
+	color: #666666;
+	background-color: #888888;
+	width: 3em;
+	float: left;
+	font-weight: normal;
+	border-radius: 6px;	
+	line-height: 22px;
+	border: 1px solid #444444;
+	padding-left: 4px;
+	margin-right: 1em;
+}
+
+/*
+div.menu {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+}
+
+div.menu button:first-child {
+	margin-right: 2%;
+}
+
+div.menu button:last-child {
+	margin-left: 2%;
+}*/
+div.welcome {
+	font-size: 14pt;
+}
+
+div.pi, div.ultimate, div.welcome {
+	margin-top: 30px;
+}
+
+div.navmenu{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+div.numpad-line button:first-child {
+	margin-right: 2%;
+}
+
+div.numpad-line button:last-child {
+	margin-left: 2%;
+}	
+
+div.outer-frame {
+	position: relative;
+	height: 100%;
+	width: 300px;
+}
+
+div.frame {
+	background-color: #666666;
+	padding: 10px;
+	border-radius: 6px;	
+	border: 1px solid #444444;	
+}
+
+div.numpad {
+	display: block;
+	left: 0px;
+	right: 0px;	
+	position: absolute;
+	top: 55px;
+	height: 155px;
+}
+
+div.below-numpad{
+	position: absolute;
+	bottom: 0px;
+	top: 240px;
+	left: 0px;
+	right: 0px;
+}
+
+div.pi-input {
+	overflow:auto;	
+	word-wrap:break-word;
+}
+
+div.pi-result {
+	position: absolute;
+	bottom: -50px;
+	height: 20px;
+	left: 0px;
+	right: 0px;			
+}	
+
+div.pi {
+	color: #000088;
+}
+	
+div.clear {
+	clear: both;
+}
+
+p {
+    color: #EEEEEE;
+}
+
+h1 {
+	font-size: 18pt;
+	color: #333333;
+}
+
+h2 {
+	font-size: 14pt;
+}
+
+.btn-group > button.mobile, button.mobile {
+	width: 32%;
+	height: 1.6em;
+	font-size: 16pt;
+	border-radius: 20px !important;
+}
+
+div.numpad-line button:active {
+	background-color: #00FF00;
+}
+
+div.numpad-line {
+	height: 1.7em;
+}
+
+div.numpad-line button{
+	width: 30%;
+}
