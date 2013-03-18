@@ -9,10 +9,9 @@
 3.	Default page is accessed by navigating the browser to: `http://localhost:8001`
 
 ##3rd party libraries (which are bundled): 
-node-static	(Static file serving with Node.js)
-JQuery	(DOM Manupulation etc.)
-Angularjs	(Client side backbone)
-TwitterBootstrap	(CSS and javascript library for typography)
+*	JQuery	(DOM Manupulation etc.)
+*	Angularjs	(Client side backbone)
+*	TwitterBootstrap	(CSS and javascript library for typography)
 	
 ###TIP:
 OS X users could benefit from utilizing the TextMate bundle made by Jeremy Ashkenas (designer of CoffeeScript), which can be found at: https://github.com/jashkenas/coffee-script-tmbundle
