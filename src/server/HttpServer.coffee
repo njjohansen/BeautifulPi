@@ -42,5 +42,6 @@ HttpServer.prototype.createHTTPServer = ->
 				# ----- Static files -----
 				file.serve(request, response)
 		)
+		request.resume()
 	)
 	server
